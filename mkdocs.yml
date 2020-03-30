@@ -1,0 +1,26 @@
+site_name: Travaux dirigés MkDocs
+site_url: 'https://infologie.github.io/cours-mkdocs/'
+repo_name: 'infologie/cours-mkdocs'
+repo_url: 'https://github.com/infologie/cours-mkdocs'
+edit_uri: ''
+site_author: Arthur Perret
+site_description: 'Ressources pédagogiques MkDocs – Arthur Perret 2020'
+copyright: '© Arthur Perret 2020 CC BY'
+nav:
+    - Accueil: index.md
+theme:
+    name: 'material'
+    custom_dir: 'theme'
+    language: 'fr'
+    palette:
+        primary: 'deep orange'
+        accent: 'orange'
+    font: false
+    logo:
+        icon: 'chrome_reader_mode'
+extra:
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/arthurperret'
+extra_css:
+    - css/custom.css
